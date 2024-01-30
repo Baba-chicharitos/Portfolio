@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+nav {
+  display: grid;
+  align-items: center;
+  height: 25vh;
+  border-bottom: 2px solid #40e0d0;
+}
