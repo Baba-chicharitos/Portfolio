@@ -1,0 +1,23 @@
+Fond de l'application (App background) : La couleur de fond principale pour votre application ou site web.
+
+Fond subtil (Subtle background) : Une couleur de fond plus légère ou moins prononcée, utilisée pour des éléments qui nécessitent un arrière-plan discret.
+
+Fond d'élément d'interface utilisateur (UI element background) : La couleur de fond pour les éléments d'interface utilisateur, comme les boîtes, les panneaux, etc.
+
+Fond d'élément d'interface utilisateur survolé (Hovered UI element background) : La couleur de fond lorsque l'utilisateur survole un élément d'interface utilisateur.
+
+Fond d'élément d'interface utilisateur actif/sélectionné (Active / Selected UI element background) : La couleur de fond lorsque l'utilisateur clique ou sélectionne un élément d'interface utilisateur.
+
+Bordures subtiles et séparateurs (Subtle borders and separators) : Couleur utilisée pour des bordures légères ou des lignes de séparation discrètes.
+
+Bordures d'éléments d'interface utilisateur et anneaux de mise au point (UI element border and focus rings) : La couleur des bordures autour des éléments d'interface utilisateur et des anneaux de mise au point.
+
+Bordures d'éléments d'interface utilisateur survolés (Hovered UI element border) : La couleur des bordures lorsqu'un utilisateur survole un élément d'interface utilisateur.
+
+Fonds solides (Solid backgrounds) : Couleur de fond solide pour des éléments spécifiques qui nécessitent une couleur pleine.
+
+Fonds solides survolés (Hovered solid backgrounds) : La couleur de fond solide lorsqu'un utilisateur survole ces éléments.
+
+Texte à faible contraste (Low-contrast text) : La couleur de texte utilisée lorsque vous souhaitez que le texte soit moins prononcé par rapport au fond.
+
+Texte à fort contraste (High-contrast text) : La couleur de texte utilisée lorsque vous souhaitez que le texte se démarque fortement par rapport au fond.
