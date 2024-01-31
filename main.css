@@ -221,3 +221,103 @@ nav a {
     rgba(13, 21, 20, 1) 56%
   );
 }
+
+.project {
+  width: 100%;
+  height: 80vh;
+  /* background-color: red; */
+}
+
+.project h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  border: 1px solid green;
+  text-align: center;
+  color: #adf0dd;
+  font-size: 3vw;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: underline;
+}
+
+.content-project {
+  height: 80%;
+  width: 100%;
+  border: 2px solid blue;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-project .card-1 {
+  position: relative;
+  width: 17vw;
+  border: 2px solid #1c6961;
+  background-color: #0d2d2a;
+  border-radius: 20px;
+}
+
+.content-project .card-1::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content-project .card-2 {
+  width: 17vw;
+  border: 2px solid #1c6961;
+  background-color: #0d2d2a;
+  border-radius: 20px;
+}
+
+.content-project .card-2::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content-project .card-3 {
+  width: 17vw;
+  border: 2px solid #1c6961;
+  background-color: #0d2d2a;
+  border-radius: 20px;
+}
+
+.content-project .card-3::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.content-project .card-1 .content-card-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding-top: 5%;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-project .card-1 .content-card-1 img {
+  width: 90%;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.content-project .card-1 .content-card-1 span {
+  text-align: center;
+  color: #adf0dd;
+  font-size: 2vw;
+}
+
+.content-project .card-1 .content-card-1 p {
+  text-align: center;
+  color: #0bd8b6;
+}
