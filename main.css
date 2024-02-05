@@ -393,7 +393,6 @@ nav a {
 .skill {
   height: 70vh;
   width: 100%;
-  background-color: blue;
 
   display: flex;
   align-items: center;
@@ -406,7 +405,6 @@ nav a {
   color: #adf0dd;
   width: 100%;
   text-align: left;
-  border: 2px solid black;
   padding-left: 1vw;
   font-family: "Quicksand", sans-serif;
 }
@@ -414,10 +412,10 @@ nav a {
 .skill .tool {
   width: 100%;
   height: 60%;
-  border: 2px solid red;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .skill .tool .toolText {
@@ -426,19 +424,19 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid green;
 }
 
 .skill .tool .toolText span {
   font-size: 1.5vw;
   font-family: "Merriweather", serif;
   font-weight: bold;
+  color: #1c6961;
 }
 
 .skill .tool .content-tool {
   width: 100%;
   height: 85%;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   flex-direction: row;
 }
@@ -446,7 +444,7 @@ nav a {
 .skill .tool .content-tool .langage {
   width: 50%;
   height: 100%;
-  border-right: 2px solid black;
+  border-right: 2px solid #145750;
   background-color: #0d1514;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -455,20 +453,9 @@ nav a {
   justify-items: center;
 }
 
-.skill .tool .content-tool .myTool {
-  width: 50%;
-  height: 100%;
-  background-color: #1c6961;
-}
-
-.skill .tool .content-tool .langage img {
-  width: 5vw;
-  height: 5vw;
-}
-
 .skill .tool .content-tool .langage .html {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #f7a26e;
@@ -479,14 +466,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .html svg {
-  width: 2vw;
+  width: 3.5vw;
   height: fit-content;
   fill: #f7a26e;
 }
 
 .skill .tool .content-tool .langage .css {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #2199f8;
@@ -497,14 +484,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .css svg {
-  width: 2vw;
+  width: 3.5vw;
   height: fit-content;
   fill: #2199f8;
 }
 
 .skill .tool .content-tool .langage .js {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #efda4f;
@@ -515,14 +502,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .js svg {
-  width: 2vw;
+  width: 3.5vw;
   height: fit-content;
   fill: #efda4f;
 }
 
 .skill .tool .content-tool .langage .react {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #087ea4;
@@ -533,14 +520,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .react svg {
-  width: 2vw;
+  width: 4.5vw;
   height: fit-content;
   fill: #087ea4;
 }
 
 .skill .tool .content-tool .langage .node {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #468c42;
@@ -552,14 +539,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .node svg {
-  width: 2vw;
+  width: 4vw;
   height: fit-content;
   fill: #468c42;
 }
 
 .skill .tool .content-tool .langage .sass {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #cd6799;
@@ -571,14 +558,14 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .sass svg {
-  width: 2vw;
+  width: 5vw;
   height: fit-content;
   fill: #cd6799;
 }
 
 .skill .tool .content-tool .langage .tailwind {
-  width: 4vw;
-  height: 4vw;
+  width: 7vw;
+  height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
   box-shadow: 0px 0px 30px #37bdf8;
@@ -590,7 +577,153 @@ nav a {
 }
 
 .skill .tool .content-tool .langage .tailwind svg {
-  width: 2vw;
+  width: 6vw;
   height: fit-content;
   fill: #37bdf8;
 }
+
+.skill .tool .content-tool .myTool {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.skill .tool .content-tool .myTool .github {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2 / 3;
+}
+
+.skill .tool .content-tool .myTool .github svg {
+  width: 3.5vw;
+  height: fit-content;
+  fill: white;
+}
+
+.skill .tool .content-tool .myTool .canva {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #2199f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3 / 4;
+}
+
+.skill .tool .content-tool .myTool .canva svg {
+  width: 4.5vw;
+  height: fit-content;
+  fill: rgb(26, 184, 207);
+  fill: linear-gradient(
+    90deg,
+    rgba(26, 184, 207, 1) 0%,
+    rgba(47, 146, 216, 1) 50%,
+    rgba(100, 58, 238, 1) 100%
+  );
+}
+
+.skill .tool .content-tool .myTool .git {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #efda4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 4 / 5;
+}
+
+.skill .tool .content-tool .myTool .git svg {
+  width: 3.5vw;
+  height: fit-content;
+  fill: #efda4f;
+}
+
+.skill .tool .content-tool .myTool .vscode {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #087ea4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 5 / 6;
+}
+
+.skill .tool .content-tool .myTool .vscode svg {
+  width: 4.5vw;
+  height: fit-content;
+  fill: #087ea4;
+}
+
+.skill .tool .content-tool .myTool .terminal {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #468c42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.skill .tool .content-tool .myTool .terminal svg {
+  width: 4vw;
+  height: fit-content;
+  fill: #468c42;
+}
+
+/* .skill .tool .content-tool .mytool .sass {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #cd6799;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.skill .tool .content-tool .mytool .sass svg {
+  width: 5vw;
+  height: fit-content;
+  fill: #cd6799;
+}
+
+.skill .tool .content-tool .mytool .tailwind {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 100%;
+  background: #0d2d2a;
+  box-shadow: 0px 0px 30px #37bdf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.skill .tool .content-tool .mytool .tailwind svg {
+  width: 6vw;
+  height: fit-content;
+  fill: #37bdf8;
+} */
