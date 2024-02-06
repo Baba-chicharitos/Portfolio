@@ -626,13 +626,6 @@ nav a {
 .skill .tool .content-tool .myTool .canva svg {
   width: 4.5vw;
   height: fit-content;
-  fill: rgb(26, 184, 207);
-  fill: linear-gradient(
-    90deg,
-    rgba(26, 184, 207, 1) 0%,
-    rgba(47, 146, 216, 1) 50%,
-    rgba(100, 58, 238, 1) 100%
-  );
 }
 
 .skill .tool .content-tool .myTool .git {
@@ -640,7 +633,7 @@ nav a {
   height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
-  box-shadow: 0px 0px 30px #efda4f;
+  box-shadow: 0px 0px 30px #ef5033;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -650,7 +643,7 @@ nav a {
 .skill .tool .content-tool .myTool .git svg {
   width: 3.5vw;
   height: fit-content;
-  fill: #efda4f;
+  fill: #ef5033;
 }
 
 .skill .tool .content-tool .myTool .vscode {
@@ -658,7 +651,7 @@ nav a {
   height: 7vw;
   border-radius: 100%;
   background: #0d2d2a;
-  box-shadow: 0px 0px 30px #087ea4;
+  box-shadow: 0px 0px 30px #3c99d4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -668,7 +661,7 @@ nav a {
 .skill .tool .content-tool .myTool .vscode svg {
   width: 4.5vw;
   height: fit-content;
-  fill: #087ea4;
+  /* fill: #3c99d4; */
 }
 
 .skill .tool .content-tool .myTool .terminal {
